@@ -1,2 +1,24 @@
-# CardGames
-Win by the  strength of cards. This app generate random cards with different strength to play.  Built with Handlebar, expressJS, nodeJS, HTML5, CSS3...
+# Boilerplate: Knex.js
+
+Phase 1 boilerplate project with:
+
+ - Express
+ - Knex
+ - SQLite3
+ - Express Handlebars
+ - body-parser
+ - Jest
+ - nodemon
+
+
+## Install
+
+```
+npm install
+npx knex migrate:latest
+npx knex seed:run
+npm run dev
+```
+
+Be sure to check out the other npm scripts too.
+
